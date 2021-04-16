@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="C, 颖和荣">
+    <meta name="keywords" content="Matlab, 颖和荣">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>C | 颖和荣</title>
+    <title>Matlab | 颖和荣</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -249,12 +249,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">C</h1>
+                    <h1 class="description center-align post-title">Matlab</h1>
                 </div>
             </div>
         </div>
@@ -399,20 +399,9 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h2><p>使用DEV C++</p>
-<h2 id="第一个C程序"><a href="#第一个C程序" class="headerlink" title="第一个C程序"></a>第一个C程序</h2><pre><code>#include&lt;stdio.h&gt;                     //头文件
-int main()                            //定义函数
-&#123;
-    printf(&quot;hello,world!&quot;);           //输出语句
-    return 0;                         //返回0
-&#125;</code></pre>
-<p>这第一个c程序，它输出了文字hello，world！  </p>
-<p>//可以注释整行，/* … */可以注释整段  </p>
-<p>程序开发过程应该包括 编写&gt;编译&gt;连接&gt;执行</p>
-<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><p>常量：</p>
-<p>整形常量，实行常量，字符型常量<br>整形常量有十进制，八进制，十六进制三种<br>实型常量有十进制小数点形式（定点形式），指数形式（浮点形式）</p>
-<p>变量：先定义，后使用<br>    变量有操作属性和，储存属性两种属性<br>    变量的定义：<br>    [ 类别标识符 ] 类型标识符 变量名表；</p>
-<h2 id="循环语句"><a href="#循环语句" class="headerlink" title="循环语句"></a>循环语句</h2><p>循环语句分别有三种<br>while<br>do…while<br>for  </p>
+                <p>%% 求方程xy+e^x确定的函数y=f(x)的导数，并求它在点(0,0)处的导数值<br>syms x y<br>F = x * y + exp(y)-exp(x)<br>FX = diff(F,x)<br>FY = diff(F,y)<br>y = -FX/Fy  </p>
+<p>%% 练习四<br>clear,clc<br>syms x y<br>F = x^2-y^2-1<br>FX = diff(F,x)<br>FY = diff(F,y)<br>FA = -FX/FY<br>subs(FA,{x,y},{sqrt(2),1})  </p>
+<p>%% </p>
 
             </div>
             <hr/>
@@ -647,13 +636,13 @@ int main()                            //定义函数
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/posts/26907.html">
+                <a href="/posts/61761.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/loading.gif" data-original="/medias/featureimages/4.jpg" class="responsive-img" alt="Web">
+                        <img src="/medias/loading.gif" data-original="/medias/featureimages/19.jpg" class="responsive-img" alt="C">
                         
-                        <span class="card-title">Web</span>
+                        <span class="card-title">C</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -688,9 +677,9 @@ int main()                            //定义函数
                     <div class="card-image">
                         
                         
-                        <img src="/medias/loading.gif" data-original="/medias/featureimages/19.jpg" class="responsive-img" alt="C">
+                        <img src="/medias/loading.gif" data-original="/medias/featureimages/11.jpg" class="responsive-img" alt="Matlab">
                         
-                        <span class="card-title">C</span>
+                        <span class="card-title">Matlab</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
