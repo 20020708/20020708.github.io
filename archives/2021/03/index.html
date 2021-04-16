@@ -288,9 +288,7 @@
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
 </script>
 
 
@@ -418,7 +416,7 @@
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/loading.gif" data-original="/medias/featureimages/01.jpg" class="responsive-img" alt="MySQL">
+                                <img src="/medias/loading.gif" data-original="/medias/featureimages/0.jpg" class="responsive-img" alt="MySQL">
                                 
                                 <span class="card-title">MySQL</span>
                             </div>
@@ -642,11 +640,13 @@ $(function () {
     
 
     
-
+    
+    <script type="text/javascript" size="150" alpha='1'
+        zIndex="-1" src="/libs/background/ribbon.min.js" async="async"></script>
     
 
     
-    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+
     
 
 <script>
